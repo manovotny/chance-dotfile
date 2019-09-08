@@ -17,9 +17,9 @@ describe('index.js', () => {
         });
     });
 
-    it('should return random dotfile', () => {
+    test('should return random dotfile', () => {
         const result = chance.dotfile();
 
-        expect(result).toEqual(`.${word}`);
+        expect(result).toStrictEqual(`.${word}`);
     });
 });
