@@ -19,8 +19,8 @@ $ yarn add chance-dotfile
 ## Usage
 
 ```js
-import Chance from "chance";
-import dotfile from "chance-dotfile";
+import Chance from 'chance';
+import dotfile from 'chance-dotfile';
 
 const chance = new Chance();
 
